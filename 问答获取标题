@@ -7,7 +7,7 @@ import re
 import time
 
 sys.setrecursionlimit(1000000)
-lalla = ['http://www.mafengwo.cn/qa/ajax_qa/more?type=&mddid=&tid=&sort=0&key=%E4%B8%9C%E4%BA%AC+%E8%BF%AA%E5%A3%AB%E5%B0%BC&page={}'.format(str(i)) for i in range(0,20,1)]
+lalla = ['网址的page={}'.format(str(i)) for i in range(0,20,1)]
 
 def wenda(wangzhi):
         wb_data = requests.get(wangzhi)
